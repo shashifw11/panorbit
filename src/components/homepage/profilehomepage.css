@@ -1,0 +1,180 @@
+.profile-container{
+    display : flex ; 
+    flex-direction: row;
+    border : 1px solid red ; 
+}
+
+.sidebar{
+    width : 18%; 
+    height : 600px ; 
+    /* border : 1px solid red ;  */
+    border-radius : 30px ;
+    margin-left : 40px ;
+    display : flex ; 
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-image: url("https://th.bing.com/th/id/OIP.2RjuSVsYCNtAQhCMFkKb6QHaQC?pid=ImgDet&w=151&h=326&c=7"); */
+        background-size: cover;
+        background-image: url("https://wallpaperaccess.com/full/3966884.jpg");
+}
+
+.menu-bar{
+    width : 80% ; 
+    height : 200px ;
+    /* border : 1px solid red ;  */
+    margin : auto ; 
+}
+
+.menu-bar p{
+    color :lightsteelblue;    
+    /* font-weight: bolder; */
+    font-size: 18px ;
+    border-bottom: 1px solid white ; 
+    cursor: pointer;
+    padding-bottom: 5px;
+} 
+
+.menu-bar p:hover{
+     color : white ; 
+     font-weight: bolder;
+}
+
+.link{
+    text-decoration: none;
+}
+.profile-bar{
+    width :70% ; 
+    border : 1px solid red ; 
+    margin-left: 50px ; ;
+}
+
+.Navbar{
+    width : 100% ; 
+    display: flex ; 
+    flex-direction: row;
+    justify-content: space-between;
+    /* border : 1px solid red ;  */
+    height : 70px ; 
+    flex-wrap: wrap;
+    border-bottom:1px solid rgb(177, 175, 175)
+
+}
+.Navbar>div{
+     width : 30% ; 
+     color : rgb(122, 122, 122);
+    font-size: 18px;
+
+    font-weight: 700;
+    padding-top: 10px;
+    /* text-align: left; */
+}
+
+.image-bar{
+    display : flex ; 
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* border : 1px solid red ;  */
+    justify-content:center;
+
+}
+.image-box{
+   width : 50px;
+   height : 50px ; 
+   border-radius: 50% ;  
+   /* border : 1px solid red ;  */
+   font-size: 16px;
+   font-weight: normal;
+} 
+.image{
+    max-width : 100% ; 
+    border-radius : 50% ; 
+}
+
+.text-box{
+    max-width : 60% ; 
+    /* border : 1px solid red  ;  */
+    font-weight: normal;
+    font-size :medium;
+}
+
+.card-section{
+    display : flex; 
+    flex-direction: row;
+    flex-wrap:wrap ;
+    width : 100% ; 
+    /* border : 1px solid red ;  */
+    margin : auto ; 
+    height : 470px;
+    margin-top : 30px ; 
+    margin-bottom : 30px
+
+}
+
+.card-profile-section-left{
+    width : 40% ; 
+    height : 100% ; 
+    border-right: 1px solid rgb(188, 186, 186);
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+}
+.card-profile-section-left div{
+    /* width : 53% ;  */
+    margin : auto ; 
+    border : 1px solid red ; 
+    height : 170px ; 
+}  
+/* .card-profile-section-left div:nth-child(1){
+    height : 35%
+} */
+.profile-pic{
+    width : 48% ; 
+    border-radius : 50% ; 
+}
+.profile-details{
+    width : 70% ;
+    margin-top: 0;
+    color : rgb(173, 172, 172) ;
+    line-height: 10px;
+    text-align:left
+} 
+.profile-details>p:nth-child(1){
+    text-align: center ;
+} 
+ 
+.company-details{
+    width : 70% ; 
+    color : rgb(173, 172, 172);
+    line-height: 15px ; ;
+}
+
+.company-details>p:nth-child(1){
+    text-align: center ;
+}
+
+.card-profile-section-right{
+    width : 50% ;
+    margin: auto ;  
+    height : 100% ; 
+    border : 1px solid red ; 
+}
+.right-box{
+    width : 80% ; 
+    margin : auto ; 
+    border : 1px solid red ; 
+    height : 100% ; 
+}
+
+.address-box{
+    width : 80% ; 
+    margin-left: 20px;
+    margin:left ;
+    border : 1px solid red ; 
+    text-align: center;
+    font-size: 18px;
+    line-height: 15px ; 
+    color :grey ; 
+}
+.address-box p:nth-child(1){
+    text-align: left;
+}
