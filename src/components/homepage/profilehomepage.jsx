@@ -16,9 +16,7 @@ const Profilehomepage = () => {
     const [address , setAddress]  = useState([]);
     const [company , setCompany] = useState([]);
  
-    //  console.log(profile) ; 
-    //  console.log(address);
-    //  console.log(company) ; 
+   
 
     useEffect(()=>{
         getProfile();
@@ -45,8 +43,15 @@ const Profilehomepage = () => {
   return (
     <div className = "profile-container"> 
           <Sidebar/>
+        
       <div className = "profile-bar">
-          <Navbar profile = {profile}/>   
+         <Navbar profile = {profile}/> 
+          {/* <Routes>
+            <Route path = "/:id/posts"  element = {<Posts/>}/>
+            <Route path = "/:id/gallery" element = {<Gallery/>}/>
+            <Route path = "/:id/todo"  element = {<Todo/>}/>
+            <Route path = "/:id"  element = {<Card profile={profile} company = {company} address={address}/>}/>
+          </Routes> */}
           <Card profile={profile} company = {company} address={address}/>
         </div>
      </div>

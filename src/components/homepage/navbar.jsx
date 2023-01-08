@@ -5,7 +5,7 @@ import Popcard from './popupover'
 const Navbar = ({profile}) => {
   return (
     <div className = "Navbar">
-          <div>Profile</div>
+          <div style = {{marginTop : "20px"}}>Profile</div>
           <div className = "image-bar">
              <div className = "image-box">
                <img className = "image" src = {profile.profilepicture} alt = "img"/>

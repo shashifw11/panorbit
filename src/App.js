@@ -14,9 +14,6 @@ function App() {
       <Routes> 
         <Route path = "/" element = {<UsersAccount/>}/>
         <Route path = "/:id" element = {<Profilehomepage/>}/>
-        <Route path = "/gallery" element = {<Gallery/>} />
-        <Route path = "/posts" element = {<Posts/>}/>
-        <Route path = "todo" element = {<Todo/>}/>
     </Routes>
       
     </div>
