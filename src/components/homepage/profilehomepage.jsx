@@ -6,7 +6,10 @@ import "./profilehomepage.css" ;
 import Navbar from './navbar';
 import Card from './card';
 import Sidebar from './sidebar';
-
+import {Route , Routes} from "react-router-dom"
+import Gallery from '../catogery/gallery';
+import Posts from '../catogery/posts';
+import Todo from '../catogery/todo';
 const Profilehomepage = () => {  
     const {id} = useParams() ; 
     const [profile , setProfile] = useState([]); 
@@ -14,8 +17,8 @@ const Profilehomepage = () => {
     const [company , setCompany] = useState([]);
  
     //  console.log(profile) ; 
-     console.log(address);
-     console.log(company) ; 
+    //  console.log(address);
+    //  console.log(company) ; 
 
     useEffect(()=>{
         getProfile();
@@ -43,9 +46,9 @@ const Profilehomepage = () => {
     <div className = "profile-container"> 
           <Sidebar/>
       <div className = "profile-bar">
-          <Navbar profile = {profile}/>
+          <Navbar profile = {profile}/>   
           <Card profile={profile} company = {company} address={address}/>
-       </div>
+        </div>
      </div>
   )
 }

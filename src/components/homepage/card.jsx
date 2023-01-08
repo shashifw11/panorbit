@@ -1,6 +1,8 @@
 import React from 'react'
+import Googlemap from './googlemap'
 
-const Card = ({profile,company,address}) => {
+const Card = ({profile,company,address}) => { 
+
   return (
     <div className = "card-section">
            <div className = "card-profile-section-left">
@@ -9,11 +11,11 @@ const Card = ({profile,company,address}) => {
              
             </div>
             <div className = "profile-details">
-            <p>{profile.name}</p>
-               <p>Username :{profile.username}</p>
+            <p>{profile.name}</p>   
+               <p>UserName :{profile.username}</p>         
                <p>e-mail   :{profile.email}</p>
                <p>Phone    :{profile.phone}</p>
-               <p>Website  :{profile.website}</p>
+               <p>Website  :{profile.website}</p> 
             </div>
             <div className = "company-details">
               <p>Company </p>
@@ -31,7 +33,10 @@ const Card = ({profile,company,address}) => {
               <p>City : {address.city}</p>
               <p>Zipcode : {address.zipcode}</p>
             </div>
-            <div></div>
+            <div className = "graph"> 
+           
+            <Googlemap address = {address}/>
+            </div>
             </div>
            
            </div>

@@ -136,12 +136,15 @@
     margin-top: 0;
     color : rgb(173, 172, 172) ;
     line-height: 10px;
-    text-align:left
+    text-align:left ; 
 } 
 .profile-details>p:nth-child(1){
     text-align: center ;
+    color : black ; 
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
- 
+
 .company-details{
     width : 70% ; 
     color : rgb(173, 172, 172);
@@ -150,6 +153,9 @@
 
 .company-details>p:nth-child(1){
     text-align: center ;
+    color : black ; 
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .card-profile-section-right{
@@ -159,7 +165,7 @@
     /* border : 1px solid red ;  */
 }
 .right-box{
-    width : 80% ; 
+    width : 100% ; 
     margin : auto ; 
     /* border : 1px solid red ;  */
     height : 100% ; 
@@ -177,4 +183,9 @@
 }
 .address-box p:nth-child(1){
     text-align: left;
-}
+    color : black ; 
+font-weight: 700;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+} 
