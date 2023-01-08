@@ -95,7 +95,11 @@
     /* border : 1px solid red  ;  */
     font-weight: normal;
     font-size :medium;
+    /* display : flex ; 
+    flex-direction: column; */
 }
+
+ 
 
 .card-section{
     display : flex; 
@@ -132,11 +136,11 @@
     border-radius : 50% ; 
 }
 .profile-details{
-    width : 70% ;
+    width : 85% ;
     margin-top: 0;
     color : rgb(173, 172, 172) ;
-    line-height: 10px;
-    text-align:left ; 
+    line-height: 15px;
+    text-align:left 
 } 
 .profile-details>p:nth-child(1){
     text-align: center ;
@@ -146,9 +150,11 @@
 } 
 
 .company-details{
-    width : 70% ; 
+   /* border: 1px solid red ;  */
+    width : 85% ; 
     color : rgb(173, 172, 172);
     line-height: 15px ; ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .company-details>p:nth-child(1){
@@ -176,10 +182,11 @@
     margin-left: 20px;
     margin:left ;
     /* border : 1px solid red ;  */
-    text-align: center;
-    font-size: 18px;
+    text-align: left;
+    font-size: 16px;
     line-height: 15px ; 
     color :grey ; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .address-box p:nth-child(1){
     text-align: left;
@@ -189,3 +196,52 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 } 
+
+.popup-button{
+    border : none ; 
+    background-color: white;
+    cursor: pointer;
+}
+
+.popup{
+    /* border:1px solid red ;  */
+    width : 250px ; 
+    height : 280px ; 
+    border-radius : 10px ; 
+    margin: left;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.popupheader{
+    width : 30% ; 
+    height : 30% ;
+    /* border : 1px solid red ; */
+    border-radius : 50% ; 
+    margin : auto ; 
+    margin-top : 20px ; 
+}
+.popName{
+    text-align: center;
+    margin-top: 10px;
+  
+}
+.popemail{
+   text-align: center; 
+   color :dimgray ; 
+   font-size :small ; 
+}
+
+.signout-button{
+    width : 100px  ; 
+    padding : 10px ; 
+    border-radius : 20px ; 
+    border : none ; 
+    background-color: #d55151;
+    color :white;
+    font-weight: 700;
+    font-size: medium;
+    margin-left :30% ; 
+    cursor: pointer;
+}

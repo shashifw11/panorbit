@@ -27,7 +27,7 @@ const Card = ({profile,company,address}) => {
            <div className = "card-profile-section-right">
             <div className = "right-box">
             <div className = "address-box">
-              <p>Addresh : {}</p>
+              <p>Addresh </p>
               <p>Street :{address.street}</p>
               <p>Suite :{address.suite}</p>
               <p>City : {address.city}</p>

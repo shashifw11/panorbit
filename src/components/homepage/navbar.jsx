@@ -1,4 +1,6 @@
 import React from 'react'
+import Popcard from './popupover'
+
 
 const Navbar = ({profile}) => {
   return (
@@ -9,7 +11,8 @@ const Navbar = ({profile}) => {
                <img className = "image" src = {profile.profilepicture} alt = "img"/>
              </div>
              <div className = "text-box">
-              <p>{profile.name}</p>
+             <p><Popcard profile = {profile}/></p>
+              {/* <p>{profile.name}</p> */}
              </div>
           </div>
         </div>
