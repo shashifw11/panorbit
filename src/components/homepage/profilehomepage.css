@@ -33,15 +33,18 @@
     cursor: pointer;
     padding-bottom: 5px;
 } 
+.menu-bar>Link>p{
+        text-decoration: none;
+ }
 
 .menu-bar p:hover{
      color : white ; 
      font-weight: bolder;
 }
 
-.link{
+/* .Link{
     text-decoration: none;
-}
+} */
 .profile-bar{
     width :70% ; 
     /* border : 1px solid red ;  */
@@ -245,3 +248,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left :30% ; 
     cursor: pointer;
 }
+
+/* Link{
+    text-decoration :none ; 
+   color : black ;  
+} */

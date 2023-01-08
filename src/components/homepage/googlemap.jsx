@@ -1,5 +1,5 @@
 import React from 'react'
-import "./googlemap.css"
+
 import {useState , useEffect}  from "react" ; 
 
 const Googlemap = ({address}) => {

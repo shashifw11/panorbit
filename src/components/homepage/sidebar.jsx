@@ -5,9 +5,9 @@ const Sidebar = () => {
     <div className = "sidebar">
         <div className = "menu-bar">
           <p>Profile</p>
-          <Link to = "posts"><p>Posts</p></Link>
-          <Link to = "gallery"><p>Gallery</p></Link>
-          <Link to = "todo"><p>ToDo</p></Link>
+          <Link style = {{textDecoration :"none"}} to = "posts"><p>Posts</p></Link>
+          <Link style = {{textDecoration :"none"}} to = "gallery"><p>Gallery</p></Link>
+          <Link style = {{textDecoration :"none"}} to = "todo"><p>ToDo</p></Link>
         </div>
       </div>
   )
