@@ -7,6 +7,7 @@
 .sidebar{
     width : 18%; 
     height : 600px ; 
+    margin-top: 5px;
     /* border : 1px solid red ;  */
     border-radius : 30px ;
     margin-left : 40px ;
@@ -139,11 +140,13 @@
     border-radius : 50% ; 
 }
 .profile-details{
-    width : 85% ;
+    width : 75% ;
     margin-top: 0;
     color : rgb(173, 172, 172) ;
     line-height: 15px;
-    text-align:left 
+    
+    text-align:left ;
+    /* border : 1px solid red ;  */
 } 
 .profile-details>p:nth-child(1){
     text-align: center ;
@@ -159,6 +162,29 @@
     line-height: 15px ; ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+ .profile-text{
+     /* border : 1px solid red ;  */
+    display : flex ;
+    flex-direction : row ; 
+    flex-wrap :wrap;
+    justify-content :left ; 
+ }
+
+ .profile-text-left{
+    width : 34% ; 
+    /* border : 1px solid red ; */
+    text-align : right ; 
+    margin-right : 20px;
+    
+ }
+ .profile-text-right{
+    width : 45% ; 
+    /* border : 1px solid red ; */
+     text-align : left ;
+     color : rgb(111, 110, 110) ;
+     font-weight: 600;
+     /* margin-left : 20px; */
+ }
 
 .company-details>p:nth-child(1){
     text-align: center ;
